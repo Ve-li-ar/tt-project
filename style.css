@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1440px;
+   justify-content: center;
+   margin: 0 auto;
+   padding-top: 100px;
+   font-size: 19px;
+   padding-left:40px;
+   padding-right: 40px;
+   padding-bottom: 100px;
+}
+
+.main-container {
+    background-color: #E1EFD8;
+   padding-top: 15px;
+   padding-left: 7px;
+   position: relative;
+   
+}
+
+.main-container::before {
+    content: "";
+    background-color: #E1EFD8;
+    width: 370px;
+    height: 3px;
+    position: absolute;
+    bottom: -25px;
+    left: 480px;
+}
+
+.main-span {
+   text-align: center;
+    display: block;
+    background-color: #fff;
+padding-top: 30px;
+padding-bottom: 60px;
+margin: 0;
+}
+
+.global-list {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 100px;
+}
+
+.items-list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center; 
+   padding-top: 50px;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   padding-top: -100px;
+
+}
+
+.items-p {
+    display: block;
+    margin: 0;
+    position: relative;
+  width: 250px;
+    font-size: 18px;
+    margin-left: -100px;
+    padding-top: 210px;
+   
+}
+
+.item-img {
+    margin-top: -215px;
+    display: block;
+    padding-right: 210px;
+    margin-right: -100px;
+    /* margin-top: -70px;
+   padding-right: 250px; */
+}
+
+.items-pp::before {
+    content: "";
+background-color: #E1EFD8;
+width: 300px;
+height: 7px;
+position: absolute;
+bottom: -25px;
+left: -35px;
+}
+
+.items-pp::after {
+    content: "";
+background-color: #E1EFD8;
+width: 7px;
+height: 300px;
+position: absolute;
+bottom: -25px;
+left: -35px;
+}
+
+
+
+.list {
+    width: 235px;
+    position: relative;
+}
+
+.list-before::before {
+    content: "";
+background-color: #E1EFD8;
+width: 13px;
+height: 4px;
+position: absolute;
+margin-top: 10px;
+left: -25px;
+}
+ 
+.items-caption {
+    font-size: 17px;
+    font-weight: normal;
+}
+    
+.items-man {
+    position: relative;
+}
+
+.items-man::before {
+    content: "";
+    background-color: #E1EFD8;
+    width: 10px;
+    height: 290px;
+    position: absolute;
+    margin-top: 50px;
+    left: 85px
+}
+
+.items-man::after{
+    content: "";
+    background-color: #E1EFD8;
+    width: 290px;
+    height: 8px;
+    position: absolute;
+   top: -7px;
+    left: 85px
+}
+
+
+.items-img-man {
+    padding-right: 0;
+position: absolute;
+bottom: -220px;
+left: -100px;
+}
+
+.items-list-bottom {
+    margin-top: 200px;
+}
+
+.item-p-calendar {
+    width: 301px;
+    margin-top: 310px;
+}
+
+.item-img-calendar{
+    margin-right: -130px;
+    padding-right: 0;
+}
+
+.item-p-calendar::before {
+    content: "";
+    background-color: #E1EFD8;
+    width: 11px;
+    height: 350px;
+    position: absolute;
+   top: 115px;
+right: -40px;
+}
+
+.item-p-calendar::after {
+    content: "";
+    background-color: #E1EFD8;
+    width: 225px;
+    height: 8px;
+    position: absolute;
+   top: 115px;
+    left: 227px
+}
+
+.item-img-graff {
+    padding-right: 0;
+    position: absolute;
+    bottom: -160px;
+    left: -50px;
+}
+
+.list-down {
+    width: 402px;
+}
+
+.list-down::after {
+    content: "";
+    background-color: #E1EFD8;
+    width: 14px;
+    height: 275px;
+    position: absolute;
+   top: -24px;
+    left: -178px;
+}
+.list-down::before {
+    content: "";
+    background-color: #E1EFD8;
+    width: 425px;
+    height: 8px;
+    position: absolute;
+ bottom: -115px;
+    left: -10px;
+}
+
+.items-graff {
+    margin-bottom: -140px;
+}
+
+.items-list-top {
+   position: relative;
+}
+
+.items-list-top::after {
+    content: "";
+    background-color: #FFF2CC;
+    width: 116px;
+    height: 7px;
+    position: absolute;
+bottom: -160px;
+right: 0;
+}
+
+.items-list-bottom {
+    position: relative;
+ }
+ 
+ .items-list-bottom::after {
+     content: "";
+     background-color: #FFF2CC;
+     width: 270px;
+     height: 6px;
+     position: absolute;
+ bottom: -125px;
+ left: -30px;
+ }
+
+ .items-list-bottom::before {
+    content: "";
+    background-color: #E1EFD8;
+    width: 370px;
+    height: 4px;
+    position: absolute;
+top:70px;
+right: 67px;
+}
